@@ -8,7 +8,7 @@ on:
 
 env:
   GIT_REPOSITORY: "${{github.event.client_payload.repository}}"
-  GIT_REF: "${{github.event.client_payload.ref}}"
+  GIT_REF: "refs/tags/v2.27.0"
   FALLBACK_GIT_REPOSITORY: https://github.com/git/git
 
   # `gettext` is keg-only
